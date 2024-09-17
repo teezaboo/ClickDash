@@ -1,0 +1,575 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c4b634838c03b44a8252573cf8760d2, type: 3}
+  m_Name: UpgradeData
+  m_EditorClassIdentifier: 
+  Upgrade:
+  - Id: 1
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: f3c561dc95feceb46a2d211da545cef5, type: 3}
+    Common: 0
+    Rare: 0
+    Epic: 1
+    Legendary: 2
+    TopicText: Dash Count
+    ValueAdd:
+    - value:
+      - 1
+    - value:
+      - 1
+    - value:
+      - 1
+    DetailText:
+    - Increase dash count by 1
+    - Increase dash count by 2
+    - Increase dash count by 3
+  - Id: 2
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 1aa0444b1e9f25c4a899c7f89e8169ca, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Wider Dash
+    ValueAdd:
+    - value:
+      - 2
+    - value:
+      - 1
+    - value:
+      - 1
+    - value:
+      - 1
+    - value:
+      - 1
+    DetailText:
+    - Increase dash 2x wider
+    - Increase dash 3x wider
+    - Increase dash 4x wider
+    - Increase dash 5x wider
+    - Increase dash 6x wider
+  - Id: 3
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 6a4494396a5241042abdb717fed10fa9, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Indomitable
+    ValueAdd:
+    - value:
+      - 10
+    - value:
+      - 5
+    - value:
+      - 5
+    - value:
+      - 5
+    - value:
+      - 5
+    DetailText:
+    - Increases your armor power by 10
+    - Increases your armor power by 15
+    - Increases your armor power by 20
+    - Increases your armor power by 25
+    - Increases your armor power by 30
+  - Id: 4
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: b21c9f3e0fce32440895b476eac24dab, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Attack Damage
+    ValueAdd:
+    - value:
+      - 15
+    - value:
+      - 15
+    - value:
+      - 15
+    - value:
+      - 15
+    - value:
+      - 15
+    DetailText:
+    - Increases your attack damage by 15
+    - Increases your attack damage by 30
+    - Increases your attack damage by 45
+    - Increases your attack damage by 60
+    - Increases your attack damage by 75
+  - Id: 5
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: afbf1136cb3fddf428051cf25d594798, type: 3}
+    Common: 0
+    Rare: 0
+    Epic: 1
+    Legendary: 2
+    TopicText: Lethal Attack
+    ValueAdd:
+    - value:
+      - 10
+    - value:
+      - 5
+    - value:
+      - 5
+    - value:
+      - 5
+    DetailText:
+    - Increases the chance to lethal attack by 10%
+    - Increases the chance to lethal attack by 15%
+    - Increases the chance to lethal attack by 20%
+    - Increases the chance to lethal attack by 25%
+  - Id: 6
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: c4a5ab61e8c61c247867c7a1f0171560, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Dash Cooldown
+    ValueAdd:
+    - value:
+      - 20
+    - value:
+      - 10
+    - value:
+      - 10
+    - value:
+      - 10
+    - value:
+      - 10
+    DetailText:
+    - Increases dash cooldown reduction by 20%
+    - Increases dash cooldown reduction by 30%
+    - Increases dash cooldown reduction by 40%
+    - Increases dash cooldown reduction by 50%
+    - Increases dash cooldown reduction by 60%
+  - Id: 7
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: e1c3ba72d80519e4fb7a976a020e7569, type: 3}
+    Common: 0
+    Rare: 0
+    Epic: 0
+    Legendary: 1
+    TopicText: Exploding
+    ValueAdd:
+    - value:
+      - 2
+    - value:
+      - 1
+    - value:
+      - 1
+    DetailText:
+    - When a monster dies, it explodes, damaging 200% of the player's attack damage.
+    - When a monster dies, it explodes, damaging 300% of the player's attack damage.
+    - When a monster dies, it explodes, damaging 400% of the player's attack damage.
+  - Id: 8
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: fe71c38d02b45c941aa3e82618f1522e, type: 3}
+    Common: 0
+    Rare: 0
+    Epic: 0
+    Legendary: 1
+    TopicText: Attack Damage %
+    ValueAdd:
+    - value:
+      - 0.5
+    - value:
+      - 0.5
+    - value:
+      - 0.5
+    - value:
+      - 0.5
+    DetailText:
+    - ' Increase attack damage 50%'
+    - ' Increase attack damage 100%'
+    - ' Increase attack damage 150%'
+    - ' Increase attack damage 200%'
+  - Id: 9
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 46f504b994cedb747a6f734a874eeceb, type: 3}
+    Common: 0
+    Rare: 1
+    Epic: 2
+    Legendary: 3
+    TopicText: Critical Damage
+    ValueAdd:
+    - value:
+      - 50
+    - value:
+      - 50
+    - value:
+      - 50
+    - value:
+      - 50
+    DetailText:
+    - ' Increase critical damage 50%'
+    - ' Increase critical damage 100%'
+    - ' Increase critical damage 150%'
+    - ' Increase critical damage 200%'
+  - Id: 10
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 1258c7676a7492549a398acb83450df5, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Chance Critical
+    ValueAdd:
+    - value:
+      - 5
+    - value:
+      - 5
+    - value:
+      - 5
+    - value:
+      - 5
+    - value:
+      - 5
+    DetailText:
+    - ' Increase chance critical attack 5%'
+    - ' Increase chance critical attack 10%'
+    - ' Increase chance critical attack 15%'
+    - ' Increase chance critical attack 20%'
+    - ' Increase chance critical attack 25%'
+  - Id: 11
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: ea4f16bd662ad7c4bbd4643c5f03f5aa, type: 3}
+    Common: 0
+    Rare: 0
+    Epic: 0
+    Legendary: 1
+    TopicText: Block shield
+    ValueAdd:
+    - value:
+      - 10
+    - value:
+      - 8
+    - value:
+      - 6
+    DetailText:
+    - Blocks 1 attack every 15 seconds.
+    - Blocks 1 attack every 13 seconds.
+    - Blocks 1 attack every 10 seconds.
+  - Id: 12
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: ec89e276804bdf64496fbdbc305c0937, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Health
+    ValueAdd:
+    - value:
+      - 50
+    - value:
+      - 50
+    - value:
+      - 50
+    - value:
+      - 50
+    - value:
+      - 50
+    DetailText:
+    - Increases maximum health by 50
+    - Increases maximum health by 100
+    - Increases maximum health by 150
+    - Increases maximum health by 200
+    - Increases maximum health by 250
+  - Id: 13
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 59bcafddeea52274e8d773e472f212ee, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Evasion
+    ValueAdd:
+    - value:
+      - 10
+    - value:
+      - 5
+    - value:
+      - 5
+    - value:
+      - 5
+    - value:
+      - 5
+    DetailText:
+    - Increases evasion chance by 10%
+    - Increases evasion chance by 15%
+    - Increases evasion chance by 20%
+    - Increases evasion chance by 25%
+    - Increases evasion chance by 30%
+  - Id: 14
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: c67886eb0d28c954d99b5944ac70fe16, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Skill Duration
+    ValueAdd:
+    - value:
+      - 2
+    - value:
+      - 2
+    - value:
+      - 2
+    - value:
+      - 2
+    DetailText:
+    - Increases skill duration by 2 second
+    - Increases skill duration by 4 second
+    - Increases skill duration by 6 second
+    - Increases skill duration by 8 second
+  - Id: 15
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: a76b75252b58fb345802dba6da507524, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Flexibility
+    ValueAdd:
+    - value:
+      - 10
+    - value:
+      - 10
+    - value:
+      - 10
+    - value:
+      - 10
+    DetailText:
+    - Increases all damage reduction by 10%
+    - Increases all damage reduction by 20%
+    - Increases all damage reduction by 30%
+    - Increases all damage reduction by 40%
+  - Id: 16
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 649d997b88208104aa48ea3921a67403, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Drop Rate Dash
+    ValueAdd:
+    - value:
+      - 5
+    - value:
+      - 5
+    - value:
+      - 5
+    - value:
+      - 5
+    - value:
+      - 5
+    DetailText:
+    - Increases the chance to drop the Dash Sword by 5%
+    - Increases the chance to drop the Dash Sword by 10%
+    - Increases the chance to drop the Dash Sword by 15%
+    - Increases the chance to drop the Dash Sword by 20%
+    - Increases the chance to drop the Dash Sword by 25%
+  - Id: 17
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: f8391d5db3cce7645ba1f5f927f2b182, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Drop Rate Food
+    ValueAdd:
+    - value:
+      - 2
+    - value:
+      - 2
+    - value:
+      - 2
+    - value:
+      - 2
+    - value:
+      - 2
+    DetailText:
+    - Increases the chance to drop the food by 2%
+    - Increases the chance to drop the food by 4%
+    - Increases the chance to drop the food by 6%
+    - Increases the chance to drop the food by 8%
+    - Increases the chance to drop the food by 10%
+  - Id: 18
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 0d96ac220afe0fd4fa755b625f642762, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Drop Rate TNT
+    ValueAdd:
+    - value:
+      - 2
+    - value:
+      - 2
+    - value:
+      - 2
+    - value:
+      - 2
+    - value:
+      - 2
+    DetailText:
+    - Increases the chance to drop the TNT by 2%
+    - Increases the chance to drop the TNT by 4%
+    - Increases the chance to drop the TNT by 6%
+    - Increases the chance to drop the TNT by 8%
+    - Increases the chance to drop the TNT by 10%
+  - Id: 19
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 839922ce4aaa8e14db7a1a31690617c7, type: 3}
+    Common: 1
+    Rare: 2
+    Epic: 3
+    Legendary: 0
+    TopicText: Drop Rate Gold
+    ValueAdd:
+    - value:
+      - 2
+    - value:
+      - 2
+    - value:
+      - 2
+    - value:
+      - 2
+    - value:
+      - 2
+    DetailText:
+    - Increases the chance to drop the gold by 2%
+    - Increases the chance to drop the gold by 4%
+    - Increases the chance to drop the gold by 6%
+    - Increases the chance to drop the gold by 8%
+    - Increases the chance to drop the gold by 10%
+  - Id: 20
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 59e96f50efe24b74298a34dc7a052532, type: 3}
+    Common: 0
+    Rare: 1
+    Epic: 2
+    Legendary: 3
+    TopicText: Fire sword
+    ValueAdd:
+    - value:
+      - 1
+    - value:
+      - 1
+    - value:
+      - 1
+    - value:
+      - 1
+    DetailText:
+    - Attacking will set it on fire for 1 second
+    - Attacking will set it on fire for 2 second
+    - Attacking will set it on fire for 3 second
+    - Attacking will set it on fire for 4 second
+  - Id: 21
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 14c2c1639a41d3c4c9c5400e313eacea, type: 3}
+    Common: 0
+    Rare: 1
+    Epic: 2
+    Legendary: 3
+    TopicText: Ice Sword
+    ValueAdd:
+    - value:
+      - 30
+    - value:
+      - 10
+    - value:
+      - 10
+    - value:
+      - 10
+    DetailText:
+    - Attacks slow monster by 30% and boss by 15% for 1 second.
+    - Attacks slow monster by 40% and boss by 20% for 1 second.
+    - Attacks slow monster by 50% and boss by 25% for 1 second.
+    - Attacks slow monster by 60% and boss by 30% for 1 second.
+  - Id: 22
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 7034dc6d862bfd54684200c29659ea5f, type: 3}
+    Common: 0
+    Rare: 1
+    Epic: 2
+    Legendary: 3
+    TopicText: Lightning Sword
+    ValueAdd:
+    - value:
+      - 20
+      - 0
+    - value:
+      - 5
+      - 1
+    - value:
+      - 5
+      - 1
+    - value:
+      - 5
+      - 1
+    DetailText:
+    - Increases attack chance by 20%, causing electricity to spread out 1 more time.
+    - Increases attack chance by 25%, causing electricity to spread out 2 more time.
+    - Increases attack chance by 30%, causing electricity to spread out 3 more time.
+    - Increases attack chance by 35%, causing electricity to spread out 4 more time.
+  - Id: 23
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: e328e6d64ed56dc42af2d0bbb0d65bff, type: 3}
+    Common: 0
+    Rare: 1
+    Epic: 2
+    Legendary: 3
+    TopicText: Vampire Sword
+    ValueAdd:
+    - value:
+      - 1
+    - value:
+      - 0.5
+    - value:
+      - 0.5
+    - value:
+      - 0.5
+    DetailText:
+    - Increases lifesteal by 1% from dash attack
+    - Increases lifesteal by 1.5% from dash attack
+    - Increases lifesteal by 2% from dash attack
+    - Increases lifesteal by 2.5% from dash attack
+  - Id: 24
+    Level: -1
+    _imgProflie: {fileID: 21300000, guid: 490ceee0501e98247acf5d4a0837029f, type: 3}
+    Common: 0
+    Rare: 1
+    Epic: 2
+    Legendary: 3
+    TopicText: Dark Sword
+    ValueAdd:
+    - value:
+      - 1
+      - 1.5
+    - value:
+      - 0.25
+      - 0.5
+    - value:
+      - 0.25
+      - 0
+    - value:
+      - 0.5
+      - 0.5
+    DetailText:
+    - Stomp on the ground when dash, Deals 100% of attack power, 1.5 meter wide.
+    - Stomp on the ground when dash, Deals 125% of attack power, 2 meter wide.
+    - Stomp on the ground when dash, Deals 150% of attack power, 2 meter wide.
+    - Stomp on the ground when dash, Deals 200% of attack power, 2.5 meter wide.
